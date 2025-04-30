@@ -1,5 +1,5 @@
 <h1 align="center">Hi there, I'm Damien Johnson </h1>
-<h3 align="center">software engineer & problem solver.</h3>
+<h3 align="center">Software & Cyber Security Engineer. As well as avid Problem Explorer .</h3>
 
 <p align="center">
   <a href="https://github.com/DDjohnson21">
