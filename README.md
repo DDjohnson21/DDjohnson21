@@ -14,12 +14,15 @@
 I am a recent Computer Science graduate currently pursuing a Master's in Cyber Security at the University of Rhode Island. My professional journey includes impactful internships as a Software Engineer at John Deere (2024) and Amazon Web Services (AWS) (2023). Currently, I serve as a Cybersecurity Risk Assessment Consultant at Polaris MEP, where I apply my expertise to enhance security measures and mitigate risks. In Addition I am pursuing two Certifications in AI "The Nuts and Bolts of Machine Learning (in progress) - Google (Coursera)" and "Artificial Intelligence (in progress) - Udemy". Beyond my professional endeavors, I am an active member of the National Society of Black Engineers (NSBE), and tutor in advanced computer science topics. When I'm not immersed in technology, you'll find me exploring the great outdoors, lost in a good book, or enjoying a movie. These passions fuel my creativity and propel me to develop innovative solutions that push the boundaries of what's possible. I am committed to leveraging my technical skills to create meaningful impact.
 </p>
 
+---
+
 ### 📊 GitHub Stats
 <h3 align="center">📊 GitHub Stats</h3>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DDjohnson21&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
 </p>
 
+---
 ### 💼 Current Project
 
 <p align="center">
