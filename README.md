@@ -20,6 +20,27 @@ I am a recent Computer Science graduate currently pursuing a Master's in Cyber S
   <img src="https://github-readme-stats.vercel.app/api?username=DDjohnson21&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
 </p>
 
+### 💼 Current Project
+
+<p align="center">
+  <a href="https://github.com/MergeFund/MergeFund" target="_blank">
+    <img 
+      src="https://github-readme-stats.vercel.app/api/pin/?username=MergeFund&repo=MergeFund&theme=tokyonight" 
+      alt="MergeFund Repo" 
+    />
+  </a>
+</p>
+
+**MergeFund** is a decentralized bounty platform that:
+
+- Seamlessly integrate with GitHub’s interface to detect and enhance repository pages
+- Track issues in real-time and attach blockchain-based bounties to them
+Pledge tokens to issues they want solved
+- Gamify contributions through tiered leaderboards, lifetime earnings tracking, and contributor dashboards
+- Automate secure payouts immediately when pull requests are merged or issues are resolved
+
+MergeFund leverages Polkadot’s powerful architecture to make open-source funding transparent and efficient, empowering both maintainers and contributors like never before. 
+
 ---
 
 ### 🔥 Top Technologies
