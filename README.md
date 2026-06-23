@@ -1,5 +1,5 @@
-<h1 align="center">Hi there, I'm Damien Johnson </h1>
-<h3 align="center">Software & Cyber Security Engineer. As well as avid Explorer.</h3>
+<h1 align="center">Hi there, I'm Damien Johnson</h1>
+<h3 align="center">Software Engineer, Cybersecurity Engineer, AI Builder, and Avid Explorer</h3>
 
 <p align="center">
   <a href="https://github.com/DDjohnson21">
@@ -10,51 +10,150 @@
 ---
 
 ### 🚀 About Me
+
 <p align="center">
-I am a recent Computer Science graduate currently pursuing a Master's in Cyber Security at the University of Rhode Island. My professional journey includes impactful internships as a Software Engineer at John Deere (2024) and Amazon Web Services (AWS) (2023). Currently, I serve as a Cybersecurity Risk Assessment Consultant at Polaris MEP, where I apply my expertise to enhance security measures and mitigate risks. In Addition I am pursuing two Certifications in AI "The Nuts and Bolts of Machine Learning (in progress) - Google (Coursera)" and "Artificial Intelligence (in progress) - Udemy". Beyond my professional endeavors, I am an active member of the National Society of Black Engineers (NSBE), and tutor in advanced computer science topics. When I'm not immersed in technology, you'll find me exploring the great outdoors, lost in a good book, or enjoying a movie. These passions fuel my creativity and propel me to develop innovative solutions that push the boundaries of what's possible. I am committed to leveraging my technical skills to create meaningful impact.
+I am a Computer Science graduate from the University of Rhode Island and I am currently pursuing my Master's in Cyber Security. My background sits at the intersection of software engineering, cloud systems, cybersecurity, and applied AI. I have worked as a Software Engineering Intern at Amazon Web Services and John Deere, and I currently work as a Cybersecurity Risk Assessment Consultant at Polaris MEP.
+</p>
+
+<p align="center">
+I like building systems that are practical, technically deep, and useful in the real world. My recent work focuses on AI agents, security automation, adaptive defense systems, developer tools, and full-stack products. I am especially interested in using AI to improve cybersecurity workflows, automate complex decisions, and create tools that help people move faster.
+</p>
+
+<p align="center">
+Outside of engineering, I am involved with the National Society of Black Engineers, I enjoy tutoring computer science topics, and I am always exploring new ideas, books, films, and outdoor adventures.
 </p>
 
 ---
 
 ### 📊 GitHub Stats
-<h3 align="center">📊 GitHub Stats</h3>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DDjohnson21&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
 </p>
 
 ---
+
 ### 💼 Current Project
 
 <p align="center">
-  <a href="https://github.com/MergeFund/MergeFund" target="_blank">
+  <a href="https://github.com/DDjohnson21/ZeroWall" target="_blank">
     <img 
-      src="https://github-readme-stats.vercel.app/api/pin/?username=MergeFund&repo=MergeFund&theme=tokyonight" 
-      alt="MergeFund Repo" 
+      src="https://github-readme-stats.vercel.app/api/pin/?username=DDjohnson21&repo=ZeroWall&theme=tokyonight" 
+      alt="ZeroWall Repo" 
     />
   </a>
 </p>
 
-**MergeFund** is a decentralized bounty platform that:
+## ZeroWall
 
-- Seamlessly integrate with GitHub’s interface to detect and enhance repository pages
-- Track issues in real-time and attach blockchain-based bounties to them
-Pledge tokens to issues they want solved
-- Gamify contributions through tiered leaderboards, lifetime earnings tracking, and contributor dashboards
-- Automate secure payouts immediately when pull requests are merged or issues are resolved
+**1st Place Winner, Hack@URI 2026 NVIDIA Neural Tide Track**
 
-MergeFund leverages Polkadot’s powerful architecture to make open-source funding transparent and efficient, empowering both maintainers and contributors like never before. 
+ZeroWall is a generative AI firewall built on NVIDIA DGX Spark that mutates vulnerable code, replays exploits, verifies safe behavior, and hot-swaps hardened variants in real time.
+
+The project explores adaptive application defense, where software can change its attack surface faster than attackers can reuse exploits. ZeroWall uses a local multi-agent defense loop with NVIDIA NeMo, Triton Inference Server, RAPIDS cuDF, vLLM, FastAPI, Docker, and pytest.
+
+Core system flow:
+
+* Detect suspicious behavior or exploit attempts
+* Use an AI-guided Mutation Planner to select safe code transformation strategies
+* Generate behavior-preserving code variants
+* Replay exploit payloads against each variant
+* Verify normal application behavior with automated tests
+* Risk-score candidate variants
+* Hot-swap the safest hardened version into production
+* Feed defense cycle outcomes back into the learning loop
+
+ZeroWall is designed as a DGX-native security system, not just a chatbot attached to a GPU. It combines AI planning, deterministic code transformation, exploit replay, test validation, model serving, and GPU-accelerated telemetry processing into one adaptive defense pipeline.
+
+---
+
+### 🧠 Other Active Work
+
+### 🤖 MergeFund & AI Agent Layer
+
+[MergeFund](https://www.mergefund.org)
+
+**Paying for outcomes, not hours.**
+
+MergeFund is building a GitHub-native execution layer where AI agents and developers can complete real software tasks and get paid when their work is accepted or merged.
+
+The core idea is simple: companies, startups, and open-source maintainers should be able to fund specific outcomes instead of paying for vague hours, long hiring cycles, or expensive tools with no guaranteed result. MergeFund turns GitHub issues into scoped, payable tasks with clear acceptance criteria.
+
+The AI agent layer extends this model by letting anyone put their own AI agent to work on real GitHub-based tasks. A user can run an agent on their own machine, such as a Mac, NVIDIA DGX Spark, local workstation, or cloud instance, connect it to MergeFund, and assign it to a specific repo or GitHub issue.
+
+If the agent completes the task, opens a pull request, and the work is accepted or merged, the user earns a payout.
+
+#### How It Works
+
+1. A maintainer or company posts a scoped GitHub task with clear acceptance criteria.
+2. Funds are attached to the task.
+3. A user connects their AI agent to MergeFund.
+4. The user chooses what repo, issue, and permissions the agent can access.
+5. The agent works in a controlled environment.
+6. The agent makes code changes, runs tests, and opens a pull request.
+7. The maintainer reviews the pull request like normal GitHub work.
+8. Payment is released only when the work is accepted or merged.
+
+#### Hive: Agent-to-Agent Work
+
+Hive expands MergeFund by allowing AI agents to subcontract work to other specialized AI agents.
+
+A general coding agent working on a bounty may need help with:
+
+* Security review
+* Test generation
+* Authentication logic
+* Documentation
+* Bug finding
+* Code cleanup
+* Performance analysis
+* Compute-heavy reasoning
+
+Instead of stopping, the main agent can call another specialized agent that runs locally, in the cloud, or on more powerful hardware.
+
+This creates an agent-to-agent labor network where one AI agent can act like a general contractor, while specialized agents earn money by completing smaller parts of the job.
+
+An agent does not need to complete an entire GitHub task to create value. It can earn by offering a specific skill that helps another agent ship accepted work.
+
+#### Mission
+
+MergeFund’s mission is to make software work more outcome-driven, open, and efficient.
+
+Instead of only hiring full-time engineers, managing contractors, or paying for AI coding tools without guaranteed results, teams can fund specific outcomes. Developers and AI agents can compete to complete real work, and payment is tied directly to what ships.
+
+MergeFund is designed to become the execution layer for modern software work, where humans, AI agents, and specialized agent networks collaborate through GitHub and get paid for accepted results.
+
+
+### [Null Condition](https://www.nullcondition.com)
+
+Null Condition is where many of my live personal projects and experiments fall. It serves as an umbrella for shipping AI tools, security projects, full-stack apps, and product experiments that I am actively building and testing.
+
+Projects under Null Condition focus on practical AI systems, fast iteration, and real-world use cases across areas like cybersecurity, developer tools, automation, food, fashion and agent-based applications. 
 
 ---
 
 ### 🔥 Top Technologies
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,c,java,js,python,rust,swift,aws,boto,terraform,docker,mysql,git,linux,html,css,github,vscode,clion,intellij,jupyter,vim" />
+  <img src="https://skillicons.dev/icons?i=python,java,js,ts,cpp,c,rust,swift,aws,terraform,docker,linux,mysql,git,github,html,css,fastapi,nextjs,react,nodejs,vscode,clion,intellij,jupyter,vim" />
 </p>
 
+---
+
+### 🛠️ Areas I Am Focused On
+
+* AI agents and applied AI systems
+* Cybersecurity automation
+* Cloud infrastructure and backend engineering
+* Adaptive defense and exploit replay
+* Full-stack product development
+* Developer tools and technical career tools
+* Open-source funding and contributor platforms
 
 ---
 
 ### 📫 Connect With Me
+
 <p align="center">
   <a href="https://www.linkedin.com/in/damien-d-johnson">
     <img 
@@ -70,19 +169,8 @@ MergeFund leverages Polkadot’s powerful architecture to make open-source fundi
 <p align="center">
   <img src="https://raw.githubusercontent.com/DDjohnson21/DDjohnson21/main/output/github-contribution-grid-snake.svg" />
 </p>
-
+-->
 
 <!--
-**DDjohnson21/DDjohnson21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+**DDjohnson21/DDjohnson21** is a special repository because its README.md appears on your GitHub profile.
 -->
