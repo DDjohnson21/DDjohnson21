@@ -12,16 +12,17 @@
 ### 🚀 About Me
 
 <p align="center">
-I am a Computer Science graduate from the University of Rhode Island and I am currently pursuing my Master's in Cyber Security. My background sits at the intersection of software engineering, cloud systems, cybersecurity, and applied AI. I have worked as a Software Engineering Intern at Amazon Web Services and John Deere, and I currently work as a Cybersecurity Risk Assessment Consultant at Polaris MEP.
+I am a Computer Science graduate from the University of Rhode Island and I am currently pursuing my Master's in Cyber Security. My background sits at the intersection of software engineering, cloud systems, cybersecurity, and applied AI. I have worked as a Software Engineering Intern at Amazon Web Services and John Deere, as a Cybersecurity Intern at Accenture, and I currently work as a Cybersecurity Risk Assessment Consultant at Polaris MEP.
 </p>
 
 <p align="center">
-I like building systems that are practical, technically deep, and useful in the real world. My recent work focuses on AI agents, security automation, adaptive defense systems, developer tools, and full-stack products. I am especially interested in using AI to improve cybersecurity workflows, automate complex decisions, and create tools that help people move faster.
+I like building systems that are practical, technically deep, and useful in the real world. As a 15+ time hackathon winner, my recent work focuses on AI agents, security automation, adaptive defense systems, developer tools, and full-stack products. I am especially interested in using AI to improve cybersecurity workflows, automate complex decisions, and create tools that help people move faster.
 </p>
 
 <p align="center">
 Outside of engineering, I am involved with the National Society of Black Engineers, I enjoy tutoring computer science topics, and I am always exploring new ideas, books, films, and outdoor adventures.
 </p>
+
 
 ---
 
