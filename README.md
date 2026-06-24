@@ -12,7 +12,7 @@
 ### 🚀 About Me
 
 <p align="center">
-I am a Computer Science graduate from the University of Rhode Island and I am currently pursuing my Master's in Cyber Security. My background sits at the intersection of software engineering, cloud systems, cybersecurity, and applied AI. I have worked as a Software Engineering Intern at Amazon Web Services and John Deere, as a Cybersecurity Intern at Accenture, and I currently work as a Cybersecurity Risk Assessment Consultant at Polaris MEP.
+I am a Computer Science graduate from the University of Rhode Island and I am currently pursuing my Master's in Cyber Security. My background sits at the intersection of software engineering, cloud systems, cybersecurity, and applied AI. I have worked as a Software Engineering Intern at Amazon Web Services and John Deere, as a Cybersecurity Intern at Accenture, and worked as a Cybersecurity Risk Assessment Consultant at Polaris MEP.
 </p>
 
 <p align="center">
